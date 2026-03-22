@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: mart_patient_summary
+    columns:
+      - name: patient_id
+        data_tests:
+          - unique
+          - not_null
+  - name: mart_department_stats
+  - name: mart_doctor_performance
