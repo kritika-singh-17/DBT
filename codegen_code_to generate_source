@@ -1,0 +1,3 @@
+{{ codegen.generate_source(schema_name= 'raw', database_name= 'healthpulse_db') }}
+
+// paste this code into a new file and compile,you'll get the source file , copy it and into a new file and change the name 
