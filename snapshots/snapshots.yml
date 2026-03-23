@@ -1,0 +1,9 @@
+snapshots:
+  - name: admissions_snapshot
+    relation: source('raw','admissions')
+    config: 
+      schema: snapshots
+      database: healthpulse_db
+      unique_key: admission_id
+      strategy: check
+      check_cols: ['status','discharge_date','charges']

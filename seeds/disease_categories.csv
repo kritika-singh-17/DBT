@@ -1,0 +1,7 @@
+diagnosis,category,severity
+Heart Disease,Cardiac,High
+Stroke,Neurological,Critical
+Fracture,Orthopedic,Medium
+Fever,General,Low
+Hypertension,Cardiac,Medium
+Chest Pain,Cardiac,High
